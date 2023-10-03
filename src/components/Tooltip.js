@@ -22,8 +22,8 @@ function Tooltip({ content, position }) {
   return (
     <div style={tooltipStyle} className="flex justify-center items-center z-10">
       <div style={containerStyle} className="flex flex-col justify-center items-center">
-        <p className="text-white bg-gray-900 p-3">{content}</p>.
-        <img src={avatar} alt="Avatar" className="w-[50px] h-[50px]" />
+        <p className="text-white bg-gray-900 p-3 ">{content}</p>.
+        <img src={avatar} alt="Avatar" className="w-[45px] h-[45px]" />
       </div>
     </div>
   );
