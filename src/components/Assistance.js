@@ -95,8 +95,8 @@ function Assistance() {
   };
 
   return (
-    <div onClick={handleContainerClick}>
-        <div className='w-full py-10 flex flex-wrap justify-center gap-x-[150px] items-center'>
+    <div onClick={handleContainerClick} className="mb-10">
+        <div className='w-full py-10 flex flex-wrap justify-center gap-10  md:gap-x-[150px] items-center'>
         {categories.map((category, index) => (
           <button
             key={index}
