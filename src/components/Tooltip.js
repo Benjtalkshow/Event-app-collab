@@ -16,6 +16,7 @@ function Tooltip({ content, position }) {
     backgroundColor: 'transparent', 
     padding: '10px',
     fontWeight: 'extrabold',
+    color: 'black',
   };
 
   return (
