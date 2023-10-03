@@ -13,10 +13,11 @@ function Tooltip({ content, position }) {
   };
 
   const containerStyle = {
-    backgroundColor: 'transparent', 
+    backgroundColor: 'black', 
     padding: '10px',
-    color : 'black',
-    fontWeight: 'extrabold'
+    color : 'white',
+    fontWeight: 'extrabold',
+    paddingTop: '2px',
   };
 
   return (
