@@ -15,7 +15,7 @@ function Tooltip({ content, position }) {
   const containerStyle = {
     backgroundColor: 'transparent', 
     padding: '10px',
-    color : 'red',
+    color : 'black',
     fontWeight: 'extrabold'
   };
 
