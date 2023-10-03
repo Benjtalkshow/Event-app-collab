@@ -9,27 +9,27 @@ function Assistance() {
     {
       cat: "Fashion",
       datafunction: "function1",
-      datadescription: "Button for Fashion",
+      datadescription: "Button for Fashion category",
     },
     {
       cat: "Event",
       datafunction: "function2",
-      datadescription: "Button for Event",
+      datadescription: "Button for Event category",
     },
     {
       cat: "Sports",
       datafunction: "function3",
-      datadescription: "Button for Sports",
+      datadescription: "Button for Sports category",
     },
     {
       cat: "Language",
       datafunction: "function4",
-      datadescription: "Button for Language",
+      datadescription: "Button for Language category",
     },
     {
       cat: "Technology",
       datafunction: "function5",
-      datadescription: "Button for Technology",
+      datadescription: "This button will redirect you to Technology page",
     },
   ];
 
@@ -37,17 +37,17 @@ function Assistance() {
     {
       src: image1,
       datafunction: "function6",
-      datadescription: "The Shawshunk",
+      datadescription: "Movie psoter for The Shawshunk",
     },
     {
       src: image2,
       datafunction: "function6",
-      datadescription: "The Parasite",
+      datadescription: "Movie psoter for The Parasite",
     },
     {
       src: image3,
       datafunction: "function6",
-      datadescription: "The Darknight",
+      datadescription: "Movie psoter for The Darknight",
     },
   ];
 
