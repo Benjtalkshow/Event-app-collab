@@ -13,11 +13,9 @@ function Tooltip({ content, position }) {
   };
 
   const containerStyle = {
-    backgroundColor: 'black', 
+    backgroundColor: 'transparent', 
     padding: '10px',
-    color : 'white',
     fontWeight: 'extrabold',
-    paddingTop: '2px',
   };
 
   return (
