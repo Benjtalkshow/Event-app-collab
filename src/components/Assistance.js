@@ -96,7 +96,7 @@ function Assistance() {
 
   return (
     <div onClick={handleContainerClick}>
-        <div className='w-full py-10 flex justify-center gap-x-[150px] items-center'>
+        <div className='w-full py-10 flex flex-wrap justify-center gap-x-[150px] items-center'>
         {categories.map((category, index) => (
           <button
             key={index}
@@ -119,7 +119,7 @@ function Assistance() {
       ) : (
         <Tooltip content={content} position={position} />
       )}
-<div className='w-full flex justify-center mt-10 gap-10'>
+<div className='w-full flex flex-wrap justify-center mt-10 gap-10'>
     {
         Images.map((image, index) => (
             <img key={index} src={image.src} 
