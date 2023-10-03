@@ -66,6 +66,7 @@ function Assistance() {
       const { top, left, width } = event.target.getBoundingClientRect();
       const newPosition = { top, left: left + width + 10, right: 'auto', bottom: 'auto' }; 
 
+
       setPosition(newPosition);
       setContent(descriptionValue);
       setIsDefaultPosition(false);
@@ -94,7 +95,7 @@ function Assistance() {
   };
 
   return (
-    <div onClick={handleContainerClick} className="mb-10">
+    <div onClick={handleContainerClick} className="mb-10 overflow-hidden">
         <div className='w-full py-10 flex flex-wrap justify-center gap-10  md:gap-x-[150px] items-center'>
         {categories.map((category, index) => (
           <button
