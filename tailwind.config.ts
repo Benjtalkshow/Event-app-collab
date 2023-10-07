@@ -23,6 +23,12 @@ const config: Config = {
           blue: '#D2F5FE',
           orange: '#FFE0C4',
           grey: '#4C4C4C',
+          DEFAULT: '#FFC6BC',
+          peach: '#FFC6BC',
+          blue: '#D2F5FE',
+          orange: '#FFE0C4',
+          grey: '#4C4C4C',
+          'grey-200': '#E3E3E3',
         },
         secondary: {
           DEFAULT: '#3F3849',
