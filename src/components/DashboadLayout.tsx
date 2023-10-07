@@ -24,9 +24,8 @@ const DashboadLayout = ({ children }: DashboadLayoutProps) => {
           </div>
           <main className="lg:pl-72">
             {/* Main content */}
-            <div className="sticky top-0 bg-white">
-
-            <Navbar />
+            <div className="sticky top-0 z-10 bg-white">
+              <Navbar />
             </div>
             {children}
           </main>
