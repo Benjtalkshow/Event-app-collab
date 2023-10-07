@@ -1,6 +1,6 @@
-import { ErrorBoundary } from 'react-error-boundary';
-import Sidebar from './Sidebar';
-import { Navbar } from './Navbar';
+import { ErrorBoundary } from "react-error-boundary";
+import Sidebar from "./Sidebar";
+import { Navbar } from "./Navbar";
 
 interface DashboadLayoutProps {
   children: React.ReactNode;
@@ -17,14 +17,16 @@ const DashboadLayout = ({ children }: DashboadLayoutProps) => {
       }
     >
       <>
-        <div className='h-full relative'>
-          <div className='hidden h-full md:flex md:w-72 md:flex-col md:fixed md:inset-y-0 z-[80] bg-secondary'>
+        <div className="h-full relative">
+          <div className="hidden rounded-r-lg h-full w-[200px] lg:flex lg:w-72 lg:flex-col lg:fixed lg:inset-y-0 z-[80] bg-secondary">
             {/* Sidebar */}
             <Sidebar />
           </div>
-          <main className='md:pl-72'>
+          <main className="lg:pl-72">
             {/* Main content */}
-            <Navbar />
+            <div className="sticky top-0 z-10 bg-white">
+              <Navbar />
+            </div>
             {children}
           </main>
         </div>

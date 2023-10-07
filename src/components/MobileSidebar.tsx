@@ -1,45 +1,36 @@
-import React, { useState, useRef, MouseEventHandler } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import Sidebar from './Sidebar';
 
 const MobileSidebar = () => {
-  const [dropNav, setDropNav] = useState(false);
-  const sidebarRef = useRef<HTMLDivElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleClickOutsideSidebar: MouseEventHandler<HTMLDivElement> = (
-    event
-  ) => {
-    if (
-      sidebarRef.current &&
-      event.target instanceof Node &&
-      !sidebarRef.current.contains(event.target)
-    ) {
-      setDropNav(false);
-    }
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div className='md:hidden'>
-      {!dropNav && (
-        <AiOutlineMenu
-          className='h-8 w-8 text-gray-500 hover:text-gray-900'
-          onClick={() => setDropNav(true)}
-        />
-      )}
-
-      {dropNav && (
+    <div className='lg:hidden'>
+      <div
+        className={`fixed top-0 left-0 w-full h-full ${
+          isOpen ? 'bg-gray-700 bg-opacity-50' : 'bg-transparent'
+        } transition-opacity`}
+        onClick={() => setIsOpen(false)}
+      >
         <div
-          className='fixed top-0 left-0 w-full h-full backdrop-blur-sm z-50'
-          onClick={handleClickOutsideSidebar}
+          className={`w-72 h-full transform ${
+            isOpen ? 'translate-x-0' : '-translate-x-full'
+          } transition-transform`}
         >
-          <div className='w-72 h-full' ref={sidebarRef}>
-            <Sidebar
-              onClickX={() => setDropNav(false)}
-              onClickLink={() => setDropNav(false)}
-            />
-          </div>
+          <Sidebar onClickX={toggleSidebar} onClickLink={toggleSidebar} />
         </div>
-      )}
+      </div>
+      <div className={isOpen ? 'hidden' : 'absolute z-10 top-0 left-0 p-4'}>
+        <AiOutlineMenu
+          className='h-8 w-8 text-gray-500 hover:text-gray-900 cursor-pointer'
+          onClick={toggleSidebar}
+        />
+      </div>
     </div>
   );
 };
