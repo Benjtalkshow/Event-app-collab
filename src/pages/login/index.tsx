@@ -6,7 +6,6 @@ import { FcGoogle } from 'react-icons/fc';
 
 const Login = () => {
   const router = useRouter();
-
   return (
     <main className='font-inter md:flex justify-between h-screen '>
       <div className='hidden md:flex md:flex-col md:w-1/2 md:justify-center md:items-center px-10'>
