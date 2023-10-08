@@ -1,7 +1,5 @@
 import React from "react";
 import football from "../../assets/images/football.webp";
-import nextBtn from "../../assets/images/nextBtn.svg";
-import Image from "next/image";
 import EventCards from "./EventCards";
 
 const EventList = () => {
@@ -12,7 +10,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "bg-[#EEE0FF]",
+      cardBackgroudColor: "orange",
     },
     {
       cardImg: football,
@@ -20,7 +18,15 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "bg-[#FFE0C4]",
+      cardBackgroudColor: "blue",
+    },
+    {
+      cardImg: football,
+      cardName: "Hiking",
+      cardDate: "20th May, 2023",
+      cardTime: "Friday, 16:00-18:00",
+      cardLocation: "Mount Patti",
+      cardBackgroudColor: "peach", // purple didn't work
     },
     {
       cardImg: football,
@@ -28,7 +34,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "bg-[#D2F5FE]",
+      cardBackgroudColor: "orange",
     },
     {
       cardImg: football,
@@ -36,7 +42,15 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "bg-[#EEE0FF]",
+      cardBackgroudColor: "blue",
+    },
+    {
+      cardImg: football,
+      cardName: "Hiking",
+      cardDate: "20th May, 2023",
+      cardTime: "Friday, 16:00-18:00",
+      cardLocation: "Mount Patti",
+      cardBackgroudColor: "peach", // purple didn't work
     },
     {
       cardImg: football,
@@ -44,7 +58,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "bg-[#FFE0C4]",
+      cardBackgroudColor: "orange",
     },
     {
       cardImg: football,
@@ -52,7 +66,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "bg-[#D2F5FE]",
+      cardBackgroudColor: "blue",
     },
     {
       cardImg: football,
@@ -60,32 +74,16 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "bg-[#D2F5FE]",
-    },
-    {
-      cardImg: football,
-      cardName: "Hiking",
-      cardDate: "20th May, 2023",
-      cardTime: "Friday, 16:00-18:00",
-      cardLocation: "Mount Patti",
-      cardBackgroudColor: "bg-[#EEE0FF]",
-    },
-    {
-      cardImg: football,
-      cardName: "Football Game",
-      cardDate: "20th May, 2023",
-      cardTime: "Friday, 16:00-18:00",
-      cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "bg-[#FFE0C4]",
+      cardBackgroudColor: "peach", // purple didn't work
     },
   ];
 
   const renderCards = cardDetails.map((value, index) => {
-    return <EventCards value={value} index={index} />;
+    return <EventCards key={index} index={index} value={value} />;
   });
   return (
     <div className="container mx-auto px-4 h-[400px] ">
-      <div className="h-full overflow-y-scroll grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(3,_minmax(0))] lg:grid-cols-3 xl:grid-cols-3 gap-6">
+      <div className="h-full lg:overflow-y-scroll grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(3,_minmax(0))] lg:grid-cols-3 xl:grid-cols-3 gap-6">
         {renderCards}
       </div>
     </div>
