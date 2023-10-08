@@ -26,14 +26,14 @@ const Login = () => {
         <div className=' w-full space-y-5'>
           <Button
             className=' bg-white hover:bg-white/80 text-secondary w-full py-8 text-md'
-            onClick={() => router.push('/login')}
+            onClick={() => router.push('/timeline')}
           >
             <FcGoogle className='inline-block mr-2 text-3xl' />
             Continue with Google
           </Button>
           <Button
             className=' text-secondary w-full py-8 text-md'
-            onClick={() => router.push('/login')}
+            onClick={() => router.push('/timeline')}
           >
             <FaXTwitter className='inline-block mr-2 text-3xl' />
             Continue with Twitter
