@@ -1,6 +1,6 @@
 import DashboadLayout from '@/components/DashboadLayout';
 
-const Peope = () => {
+const People = () => {
   return (
     <DashboadLayout>
       <div className=''>People</div>
@@ -8,4 +8,4 @@ const Peope = () => {
   );
 };
 
-export default Peope;
+export default People;
