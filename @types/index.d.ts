@@ -28,3 +28,13 @@ interface CardProps {
   location: string;
   bgColor: string;
 }
+
+interface ReminderCardTypes {
+  time: string;
+  title: string;
+  location: string;
+  background: string;
+}
+
+type ValuePiece = Date | null;
+type Value = ValuePiece | [ValuePiece, ValuePiece];
