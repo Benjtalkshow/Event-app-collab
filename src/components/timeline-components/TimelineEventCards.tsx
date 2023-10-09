@@ -3,8 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import nextBtn from "@/assets/svgs/nextBtn.svg";
-import football from "@/assets/images/football.webp";
-import hikey from "@/assets/images/hiking.webp";
 
 const TimelineEventCards: React.FC<CardProps> = ({
   img,
@@ -18,7 +16,7 @@ const TimelineEventCards: React.FC<CardProps> = ({
     <div className='flex pt-0 flex-col rounded-md h-full max-h-[500px]'>
       <div className='h-1/2 w-full rounded-t-md'>
         <Image
-          src={name.includes("football") ? football : hikey}
+          src={img}
           width={800}
           height={600}
           alt={name}
