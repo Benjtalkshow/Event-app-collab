@@ -1,9 +1,12 @@
 import DashboadLayout from '@/components/DashboadLayout';
-import AddBtn from '@/components/people-components/AddBtn';
+import Cards from '@/components/people-components/Cards';
+
+
 const People = () => {
+
   return (
     <DashboadLayout>
-      <AddBtn />
+    <Cards />
     </DashboadLayout>
   );
 };

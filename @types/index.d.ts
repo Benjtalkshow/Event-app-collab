@@ -14,3 +14,16 @@ interface CardTypes {
   index: number;
   value: any;
 }
+
+interface AddBtnProps {
+  label: string;
+  onClick: () => void;
+}
+
+interface PeopleCardProps {
+  image : any,
+  groupName: string,
+  events : string,
+  icon : any,
+
+}
