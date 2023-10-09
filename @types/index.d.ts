@@ -19,3 +19,12 @@ interface SidebarProps {
   onClickX?: () => void;
   onClickLink?: () => void;
 }
+
+interface CardProps {
+  img: string;
+  name: string;
+  date: string;
+  time: string;
+  location: string;
+  bgColor: string;
+}
