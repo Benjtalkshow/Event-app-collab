@@ -20,9 +20,21 @@ interface SidebarProps {
   onClickLink?: () => void;
 }
 
+interface CardProps {
+  img: string;
+  name: string;
+  date: string;
+  time: string;
+  location: string;
+  bgColor: string;
+}
+
 interface ReminderCardTypes {
   time: string;
   title: string;
   location: string;
   background: string;
 }
+
+type ValuePiece = Date | null;
+type Value = ValuePiece | [ValuePiece, ValuePiece];

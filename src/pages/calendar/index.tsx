@@ -4,10 +4,6 @@ import { Calendar } from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import ReminderCard from "@/components/calendar-components/ReminderCard";
 
-type ValuePiece = Date | null;
-
-type Value = ValuePiece | [ValuePiece, ValuePiece];
-
 const CalendarPage = () => {
   const reminderDetails = [
     {
