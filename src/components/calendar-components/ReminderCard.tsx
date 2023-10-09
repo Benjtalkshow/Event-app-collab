@@ -11,9 +11,9 @@ const ReminderCard = ({
       className={`bg-${background} py-[15px] px-[17px] lg:mr-[80px] lg:max-w-[100%] lg:rounded-[8px] lg:px-[17px] lg:py-[15px]`}
     >
       <div className="flex flex-row items-center gap-[2px] float-right">
-        <div className="w-[3px] h-[3px] bg-[#4C4C4C] rounded-full"></div>
-        <div className="w-[3px] h-[3px] bg-[#4C4C4C] rounded-full"></div>
-        <div className="w-[3px] h-[3px] bg-[#4C4C4C] rounded-full"></div>
+        <div className="w-[3px] h-[3px] bg-gray rounded-full"></div>
+        <div className="w-[3px] h-[3px] bg-gray rounded-full"></div>
+        <div className="w-[3px] h-[3px] bg-gray rounded-full"></div>
       </div>
 
       <div className="flex flex-row items-center gap-[5px] w-[100%]">
@@ -32,18 +32,14 @@ const ReminderCard = ({
           />
         </svg>
 
-        <p className="font-inter font-semibold text-[14px] w-[100%] whitespace-nowrap text-primary-grey">
+        <p className="font-inter font-semibold text-[14px] w-[100%] whitespace-nowrap text-gray">
           {time}
         </p>
       </div>
 
-      <p className="font-inter font-semibold text-[16px] text-[#1E1B1C]">
-        {title}
-      </p>
+      <p className="font-inter font-semibold text-[16px] text-black">{title}</p>
 
-      <p className="font-inter font-medium text-[12px] text-primary-grey">
-        {location}
-      </p>
+      <p className="font-inter font-medium text-[12px] text-gray">{location}</p>
     </div>
   );
 };

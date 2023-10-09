@@ -14,13 +14,13 @@ const CalendarPage = () => {
       time: "10:00 - 02:00",
       title: "Movies",
       location: "Joey's Crib",
-      backgroundColor: "primary-blue",
+      backgroundColor: "lightBlue",
     },
     {
       time: "10:00 - 02:00",
       title: "Yatch Party",
       location: "Ibiza boat club",
-      backgroundColor: "primary-orange",
+      backgroundColor: "peachyPink",
     },
   ];
 
