@@ -41,7 +41,7 @@ const Sidebar = ({ onClickLink, onClickX }: SidebarProps) => {
           >
             <div className="relative w-12 h-12 mr-4">
               <h1 className="italic font-montserrat font-bold text-2xl lg:text-3xl">
-                Wetin<span className="text-primary">Dey</span>Sup
+                Wetin<span className="text-peach">Dey</span>Sup
               </h1>
             </div>
           </Link>
