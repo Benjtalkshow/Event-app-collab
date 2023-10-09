@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import TimelineEventCards from "./TimelineEventCards";
 
 const TimelineEventList = () => {
   const cardDetails: CardProps[] = [
     {
-      img: "/public/images/hiking.png",
+      img: "/images/hiking.png",
       name: "Football Game",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -12,7 +13,7 @@ const TimelineEventList = () => {
       bgColor: "peachyPink",
     },
     {
-      img: "/public/images/soccer.png",
+      img: "/images/soccer.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -20,7 +21,7 @@ const TimelineEventList = () => {
       bgColor: "lightBlue",
     },
     {
-      img: "/public/images/hiking.png",
+      img: "/images/hiking.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -28,7 +29,7 @@ const TimelineEventList = () => {
       bgColor: "peach", // purple didn't work
     },
     {
-      img: "/public/images/soccer.png",
+      img: "/images/soccer.png",
       name: "Football Game",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -36,7 +37,7 @@ const TimelineEventList = () => {
       bgColor: "peachyPink",
     },
     {
-      img: "/public/images/hiking.png",
+      img: "/images/hiking.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -44,7 +45,7 @@ const TimelineEventList = () => {
       bgColor: "lightBlue",
     },
     {
-      img: "/public/images/soccer.png",
+      img: "/images/soccer.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -52,7 +53,7 @@ const TimelineEventList = () => {
       bgColor: "peach", // purple didn't work
     },
     {
-      img: "/public/images/hiking.png",
+      img: "/images/hiking.png",
       name: "Football Game",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -60,7 +61,7 @@ const TimelineEventList = () => {
       bgColor: "peachyPink",
     },
     {
-      img: "/public/images/soccer.png",
+      img: "/images/soccer.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -68,7 +69,7 @@ const TimelineEventList = () => {
       bgColor: "lightBlue",
     },
     {
-      img: "/public/images/hiking.png",
+      img: "/images/hiking.png",
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",

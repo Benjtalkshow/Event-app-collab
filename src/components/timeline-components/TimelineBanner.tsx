@@ -4,7 +4,7 @@ import createIcon from "@/assets/svgs/create-new-event.svg";
 
 const TimelineBanner = () => {
   return (
-    <div className='bg-discover'>
+    <div className='bg-banner'>
       <div className='flex max-w-[500px] w-full flex-col justify-center h-full items-start gap-8 font-inter'>
         <div className='flex flex-col items-start gap-1 self-stretch'>
           <h3 className='text-lightGrey text-[2rem] not-italic font-bold max-w-md leading-[42px] tracking-[0.64px]'>

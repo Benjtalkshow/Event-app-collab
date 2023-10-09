@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import nextBtn from "@/assets/svgs/nextBtn.svg";
@@ -13,19 +14,15 @@ const TimelineEventCards: React.FC<CardProps> = ({
 }) => {
   return (
     <div className='flex pt-0 flex-col rounded-md h-full max-h-[500px]'>
-      <div className='h-1/2 w-full'>
-        {/* <img
+      <div className='h-1/2 w-full rounded-t-md'>
+        <Image
           src={img}
+          width={800}
+          height={600}
           alt={name}
-          style={{
-            width: "100%",
-            height: "auto",
-            objectFit: "cover",
-          }}
+          style={{overflow: "hidden"}}
         />
-         */}
       </div>
-      <Image src={img} width={600} height={600} alt={name} />
 
       <div
         className={`flex px-3 pt-4 pb-6 items-center gap-16 h-1/2 rounded-b-md bg-${bgColor} w-full`}

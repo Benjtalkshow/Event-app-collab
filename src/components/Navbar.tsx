@@ -15,7 +15,7 @@ export const Navbar = () => {
         {router.pathname === "/settings" ? (
           <p className='font-semibold text-2xl hidden lg:flex'>Settings</p>
         ) : (
-          <div className='hidden lg:flex p-3 gap-2 border-lightGrey border rounded-lg md:w-2/3 '>
+          <div className='hidden lg:flex p-3 gap-2 border-lightGrey border rounded-lg w-[625px]'>
             <Image src={search} width={24} height={24} alt='search icon' />
             <input
               placeholder='Search for an event'
