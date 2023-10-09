@@ -1,11 +1,13 @@
 "use client";
 import React from "react";
 import TimelineEventCards from "./TimelineEventCards";
+import Soccer from "../../assets/images/soccer.png";
+import hiking from "../../assets/images/hiking.png";
 
 const TimelineEventList = () => {
   const cardDetails: CardProps[] = [
     {
-      img: "/images/hiking.png",
+      img: hiking as unknown as string,
       name: "Football Game",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -13,7 +15,7 @@ const TimelineEventList = () => {
       bgColor: "peachyPink",
     },
     {
-      img: "/images/soccer.png",
+      img: hiking as unknown as string,
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -21,7 +23,31 @@ const TimelineEventList = () => {
       bgColor: "lightBlue",
     },
     {
-      img: "/images/hiking.png",
+      img: hiking as unknown as string,
+      name: "Hiking",
+      date: "20th May, 2023",
+      time: "Friday, 16:00-18:00",
+      location: "Mount Patti",
+      bgColor: "peach",
+    },
+    {
+      img: Soccer as unknown as string,
+      name: "Football Game",
+      date: "20th May, 2023",
+      time: "Friday, 16:00-18:00",
+      location: "Teslim Balogun Stadium",
+      bgColor: "peachyPink",
+    },
+    {
+      img: hiking as unknown as string,
+      name: "Hiking",
+      date: "20th May, 2023",
+      time: "Friday, 16:00-18:00",
+      location: "Mount Patti",
+      bgColor: "lightBlue",
+    },
+    {
+      img: Soccer as unknown as string,
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -29,7 +55,7 @@ const TimelineEventList = () => {
       bgColor: "peach", // purple didn't work
     },
     {
-      img: "/images/soccer.png",
+      img: hiking as unknown as string,
       name: "Football Game",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -37,7 +63,7 @@ const TimelineEventList = () => {
       bgColor: "peachyPink",
     },
     {
-      img: "/images/hiking.png",
+      img: Soccer as unknown as string,
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
@@ -45,31 +71,7 @@ const TimelineEventList = () => {
       bgColor: "lightBlue",
     },
     {
-      img: "/images/soccer.png",
-      name: "Hiking",
-      date: "20th May, 2023",
-      time: "Friday, 16:00-18:00",
-      location: "Mount Patti",
-      bgColor: "peach", // purple didn't work
-    },
-    {
-      img: "/images/hiking.png",
-      name: "Football Game",
-      date: "20th May, 2023",
-      time: "Friday, 16:00-18:00",
-      location: "Teslim Balogun Stadium",
-      bgColor: "peachyPink",
-    },
-    {
-      img: "/images/soccer.png",
-      name: "Hiking",
-      date: "20th May, 2023",
-      time: "Friday, 16:00-18:00",
-      location: "Mount Patti",
-      bgColor: "lightBlue",
-    },
-    {
-      img: "/images/hiking.png",
+      img: hiking as unknown as string,
       name: "Hiking",
       date: "20th May, 2023",
       time: "Friday, 16:00-18:00",
