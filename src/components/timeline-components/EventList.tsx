@@ -10,7 +10,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "orange",
+      cardBackgroudColor: "peachyPink",
     },
     {
       cardImg: football,
@@ -18,31 +18,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "blue",
-    },
-    {
-      cardImg: football,
-      cardName: "Hiking",
-      cardDate: "20th May, 2023",
-      cardTime: "Friday, 16:00-18:00",
-      cardLocation: "Mount Patti",
-      cardBackgroudColor: "peach", // purple didn't work
-    },
-    {
-      cardImg: football,
-      cardName: "Football Game",
-      cardDate: "20th May, 2023",
-      cardTime: "Friday, 16:00-18:00",
-      cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "orange",
-    },
-    {
-      cardImg: football,
-      cardName: "Hiking",
-      cardDate: "20th May, 2023",
-      cardTime: "Friday, 16:00-18:00",
-      cardLocation: "Mount Patti",
-      cardBackgroudColor: "blue",
+      cardBackgroudColor: "lightBlue",
     },
     {
       cardImg: football,
@@ -58,7 +34,7 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Teslim Balogun Stadium",
-      cardBackgroudColor: "orange",
+      cardBackgroudColor: "peachyPink",
     },
     {
       cardImg: football,
@@ -66,7 +42,31 @@ const EventList = () => {
       cardDate: "20th May, 2023",
       cardTime: "Friday, 16:00-18:00",
       cardLocation: "Mount Patti",
-      cardBackgroudColor: "blue",
+      cardBackgroudColor: "lightBlue",
+    },
+    {
+      cardImg: football,
+      cardName: "Hiking",
+      cardDate: "20th May, 2023",
+      cardTime: "Friday, 16:00-18:00",
+      cardLocation: "Mount Patti",
+      cardBackgroudColor: "peach", // purple didn't work
+    },
+    {
+      cardImg: football,
+      cardName: "Football Game",
+      cardDate: "20th May, 2023",
+      cardTime: "Friday, 16:00-18:00",
+      cardLocation: "Teslim Balogun Stadium",
+      cardBackgroudColor: "peachyPink",
+    },
+    {
+      cardImg: football,
+      cardName: "Hiking",
+      cardDate: "20th May, 2023",
+      cardTime: "Friday, 16:00-18:00",
+      cardLocation: "Mount Patti",
+      cardBackgroudColor: "lightBlue",
     },
     {
       cardImg: football,

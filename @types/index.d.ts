@@ -14,3 +14,8 @@ interface CardTypes {
   index: number;
   value: any;
 }
+
+interface SidebarProps {
+  onClickX?: () => void;
+  onClickLink?: () => void;
+}

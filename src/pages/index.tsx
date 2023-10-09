@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main className='md:flex justify-between h-screen '>
-      <div className='px-16 h-full bg-secondary text-white w-full space-y-8 md:w-1/2 flex flex-col justify-center items-start'>
+      <div className='px-16 h-full bg-charcoal text-white w-full space-y-8 md:w-1/2 flex flex-col justify-center items-start'>
         <h1 className='font-bold text-4xl max-w-[250px]'>
           Connect and Socialize
         </h1>
@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className='lg:w-[50%] w-full'>
           <Button
-            className=' text-secondary w-full py-6 text-md'
+            className=' text-charcoal w-full py-6 text-md'
             onClick={() => router.push('/login')}
           >
             Get Started

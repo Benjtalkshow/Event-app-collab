@@ -11,7 +11,7 @@ const Login = () => {
       <div className='hidden md:flex md:flex-col md:w-1/2 md:justify-center md:items-center px-10'>
         <div className='flex flex-col justify-center items-center'>
           <h1 className='font-bold text-2xl'>Welcome on Board!</h1>
-          <p className=' text-primary-grey'>Were glad your’e here</p>
+          <p className=' text-gray'>Were glad your’e here</p>
         </div>
         <Image
           src='/images/welcome-onboard.png'
@@ -21,18 +21,18 @@ const Login = () => {
           className='object-contain'
         />
       </div>
-      <div className='px-16 h-full bg-secondary text-white w-full space-y-8 md:w-1/2 flex flex-col justify-center items-start'>
+      <div className='px-16 h-full bg-charcoal text-white w-full space-y-8 md:w-1/2 flex flex-col justify-center items-start'>
         <h1 className='font-bold text-2xl '>Sign In or Create an Account</h1>
         <div className=' w-full space-y-5'>
           <Button
-            className=' bg-white hover:bg-white/80 text-secondary w-full py-8 text-md'
+            className=' bg-white hover:bg-white/80 text-charcoal w-full py-8 text-md'
             onClick={() => router.push('/timeline')}
           >
             <FcGoogle className='inline-block mr-2 text-3xl' />
             Continue with Google
           </Button>
           <Button
-            className=' text-secondary w-full py-8 text-md'
+            className=' text-charcoal w-full py-8 text-md'
             onClick={() => router.push('/timeline')}
           >
             <FaXTwitter className='inline-block mr-2 text-3xl' />
