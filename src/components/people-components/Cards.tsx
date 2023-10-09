@@ -32,7 +32,7 @@ const cardData: PeopleCardProps[] = [
   },
 ];
 
-const bgColors = ["bg-primary-purple", "bg-primary-peach", "bg-primary-orange"];
+const bgColors = ["bg-lavender", "bg-peach", "bg-peachyPink"];
 
 const Cards = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);

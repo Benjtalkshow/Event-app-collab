@@ -3,7 +3,7 @@ import Image from "next/image";
 import addIcon from "../../../public/images/addpeopleicon.png";
 
 const AddBtn = ({ label, onClick }: AddBtnProps) => {
-  const buttonClasses: string = "px-3 md:px-6 flex items-center ml-auto py-3 gap-3 rounded-lg bg-primary";
+  const buttonClasses: string = "px-3 md:px-6 flex items-center ml-auto py-3 gap-3 rounded-lg bg-peach";
   
 // Add New Group Button in people page
   return (
