@@ -15,6 +15,11 @@ interface CardTypes {
   value: any;
 }
 
+interface SidebarProps {
+  onClickX?: () => void;
+  onClickLink?: () => void;
+}
+
 interface AddBtnProps {
   label: string;
   onClick: () => void;

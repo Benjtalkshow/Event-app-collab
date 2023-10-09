@@ -33,7 +33,7 @@ const SectionRenderer = ({ sectionItems }: sectionItems) => {
             <Image src={item?.icon} width={32} height={32} alt="item icon" />
             <div>
               <h3 className="font-inter font-medium text-2xl">{item?.title}</h3>
-              <span className="text-primary-grey">
+              <span className="text-gray">
                 {formatActions(item?.actions)}
               </span>
             </div>

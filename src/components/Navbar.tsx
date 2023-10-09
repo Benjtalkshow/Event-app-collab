@@ -6,17 +6,16 @@ import { useRouter } from "next/router";
 
 export const Navbar = () => {
   const router = useRouter();
-  console.log(router.pathname);
   const profilePic =
     "https://img.freepik.com/free-photo/beautiful-african-woman-face-portrait-close-up_53876-148041.jpg";
   return (
-    <div className="flex items-center px-10 py-4 border-b border-primary-grey-200">
+    <div className="flex items-center px-10 py-4 border-b border-lightGrey">
       <MobileSidebar />
       <div className="flex justify-end items-center lg:justify-between w-full">
         {router.pathname === "/settings" ? (
           <p className="font-semibold text-2xl hidden lg:flex">Settings</p>
         ) : (
-          <div className="hidden lg:flex p-3 gap-2 border-primary-grey-200 border rounded-lg w-[625px]">
+          <div className="hidden lg:flex p-3 gap-2 border-lightGrey border rounded-lg w-[625px]">
             <Image src={search} width={24} height={24} alt="search icon" />
             <input
               placeholder="Search for an event"

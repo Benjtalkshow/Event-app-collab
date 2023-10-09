@@ -6,11 +6,6 @@ import { FaCalendarDays, FaX } from "react-icons/fa6";
 import { SlLogout, SlSettings } from "react-icons/sl";
 import { cn } from "@/lib/utils";
 
-interface SidebarProps {
-  onClickX?: () => void;
-  onClickLink?: () => void;
-}
-
 const routes = [
   {
     label: "Timeline",
@@ -38,7 +33,7 @@ const Sidebar = ({ onClickLink, onClickX }: SidebarProps) => {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="px-3 py-10 flex-1 text-white bg-secondary rounded-r-lg">
+      <div className="px-3 py-10 flex-1 text-white bg-charcoal rounded-r-lg">
         <div className="flex items-center justify-between mb-6 lg:mb-14 ">
           <Link
             href="/timeline"
@@ -46,7 +41,7 @@ const Sidebar = ({ onClickLink, onClickX }: SidebarProps) => {
           >
             <div className="relative w-12 h-12 mr-4">
               <h1 className="italic font-montserrat font-bold text-2xl lg:text-3xl">
-                Wetin<span className="text-primary">Dey</span>Sup
+                Wetin<span className="text-peach">Dey</span>Sup
               </h1>
             </div>
           </Link>
@@ -61,7 +56,7 @@ const Sidebar = ({ onClickLink, onClickX }: SidebarProps) => {
                 className={cn(
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer rounded-lg transition",
                   pathname === route.path
-                    ? "bg-white text-secondary"
+                    ? "bg-white text-charcoal"
                     : "text-white bg-none hover:bg-white/10"
                 )}
               >

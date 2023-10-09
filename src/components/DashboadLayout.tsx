@@ -18,12 +18,10 @@ const DashboadLayout = ({ children }: DashboadLayoutProps) => {
     >
       <>
         <div className="h-full relative">
-          <div className="hidden rounded-r-lg h-full w-[200px] lg:flex lg:w-72 lg:flex-col lg:fixed lg:inset-y-0 z-[80] bg-secondary">
-            {/* Sidebar */}
+          <div className="hidden rounded-r-lg h-full w-[200px] lg:flex lg:w-72 lg:flex-col lg:fixed lg:inset-y-0 z-[80] bg-charcoal">
             <Sidebar />
           </div>
           <main className="lg:pl-72">
-            {/* Main content */}
             <div className="sticky top-0 z-10 bg-white">
               <Navbar />
             </div>
