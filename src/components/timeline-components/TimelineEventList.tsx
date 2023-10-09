@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import TimelineEventCards from "./TimelineEventCards";
+import Soccer from "../../assets/images/discover.webp";
 
 const TimelineEventList = () => {
   const cardDetails: CardProps[] = [
