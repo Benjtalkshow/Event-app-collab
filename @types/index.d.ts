@@ -20,7 +20,6 @@ interface SidebarProps {
   onClickLink?: () => void;
 }
 
-<<<<<<< HEAD
 interface AddBtnProps {
   label: string;
   onClick: () => void;
@@ -33,7 +32,6 @@ interface PeopleCardProps {
   icon : any,
 
 }
-=======
 interface CardProps {
   img: string;
   name: string;
@@ -52,4 +50,3 @@ interface ReminderCardTypes {
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
->>>>>>> baccd966e9ee8e8794b1599d79a66773ff933ac9

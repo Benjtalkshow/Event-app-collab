@@ -51,7 +51,7 @@ const Cards = () => {
         <AddBtn label="Create New Group" onClick={openPopup} />
         <div className="cardContainer flex gap-3 justify-center items-start flex-wrap font-montserrat mt-10">
           {cardData.map((data, index) => (
-            <Link href="/people">
+            <Link href="/people" key={index}>
             <div
               className={`card flex-grow basis-[200] w-[350px] h-[350px] ${bgColors[index % bgColors.length]
                 } rounded-xl cursor-pointer relative overflow-hidden`}
