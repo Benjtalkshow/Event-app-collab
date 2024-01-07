@@ -54,7 +54,7 @@ const Cards = () => {
             <Link href="/people" key={index}>
             <div
               className={`card flex-grow basis-[200] w-[350px] h-[350px] ${bgColors[index % bgColors.length]
-                } rounded-xl cursor-pointer relative overflow-hidden`}
+                } rounded-xl cursor-pointer relative overflow-hidden tight`}
               key={data.groupName}
             >
               <Image
